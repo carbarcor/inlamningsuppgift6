@@ -12,13 +12,13 @@ export const MovieForm = ({ addMovie }) => {
       setTitle('');
       setRating('');
     } else {
-      alert("Please enter both a title and a rating.");
+      alert("Var god ange både titel och betyg.");
     }
   };
 
   return (
     <Form onSubmit={handleSubmit} className="MovieForm">
-      <p>Lägg till en film</p>
+      <h2>Lägg till en film</h2>
       <Form.Group>
         <Form.Label>Titel:</Form.Label>
         <Form.Control type="text" value={title} onChange={(e) => setTitle(e.target.value)} placeholder="Titel här..." />
