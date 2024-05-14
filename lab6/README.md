@@ -1,81 +1,41 @@
-# inlamningsuppgift6
+# Min FilmLista
 
-0. npx create-react-app lab6
+Hej där! 👋 Välkommen till min lilla React-app som låter dig skapa en filmlista med betyg! 🎬✨
 
+## Komma igång
 
-1. npm install uuid
+Först och främst, se till att du har Node.js installerat på din dator. Om du inte har det, kan du ladda ner det [här](https://nodejs.org/).
 
-2. npm i --save @fortawesome/fontawesome-svg-core
+När du har Node.js redo, följ dessa enkla steg:
 
-3. npm install react-bootstrap bootstrap
+1. Skapa en ny React-app:
+   ```bash
+   npx create-react-app lab6
 
-# Getting Started with Create React App
+2. Navigera till projektmappen:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+   cd lab6
 
-## Available Scripts
+3. Installera nödvändiga beroenden:
 
-In the project directory, you can run:
+   bash
+      Copy code
+      npm install uuid
+      npm install react-bootstrap bootstrap
+      npm install
 
-### `npm start`
+I projektmappen kan du köra följande kommandon:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+      npm start
+      Startar appen i utvecklingsläge.
+      Öppna http://localhost:3000 för att se den i webbläsaren.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Sidan kommer att laddas om när du gör ändringar.
+Du kan även se eventuella lint-fel i konsolen.
 
-### `npm test`
+# Hantering av varningen
+## Känt problem: Misslyckades med att tolka källkartan.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+När du kör detta projekt kan det stöta på följande varning:
+    node_modules@react-aria\ssr
+Denna warning påverkar vanligvis inte körningen av applikationen och kan ignoreras
