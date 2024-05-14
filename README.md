@@ -6,3 +6,5 @@
 1. npm install uuid
 
 2. npm i --save @fortawesome/fontawesome-svg-core
+
+3. npm install react-bootstrap bootstrap
