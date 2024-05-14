@@ -1,3 +1,14 @@
+# inlamningsuppgift6
+
+0. npx create-react-app lab6
+
+
+1. npm install uuid
+
+2. npm i --save @fortawesome/fontawesome-svg-core
+
+3. npm install react-bootstrap bootstrap
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
