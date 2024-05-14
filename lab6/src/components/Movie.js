@@ -1,5 +1,4 @@
 import React from 'react';
-import { Button } from 'react-bootstrap';
 import deleteIcon from '../images/delete.png';
 import starIcon from '../images/star.png';
 
@@ -13,12 +12,17 @@ export const Movie = ({ movie, deleteMovie }) => {
   };
 
   return (
-    <div className="Movie">
-      <p>{movie.title}</p>
-      <p>Rating: {renderStars(movie.rating)}</p>
-      <Button variant="link" onClick={() => deleteMovie(movie.id)}>
-        <img src={deleteIcon} alt="delete" style={{ width: '20px', height: '20px' }} />
-      </Button>
+    <div className="Movie d-flex align-items-center justify-content-between p-2 mb-2 bg-light border">
+      <p className="mb-0">{movie.title}</p>
+      <div className="d-flex align-items-center">
+        {renderStars(movie.rating)}
+        <img
+          src={deleteIcon}
+          alt="delete"
+          onClick={() => deleteMovie(movie.id)}
+          style={{ width: '20px', height: '20px', cursor: 'pointer', marginLeft: '10px' }}
+        />
+      </div>
     </div>
   );
 };
